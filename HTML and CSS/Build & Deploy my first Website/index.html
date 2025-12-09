@@ -5,70 +5,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starting</title>
 </head>
+
 <body>
-    <!-- Challenge 1 HTML Tags -->
-    <!-- <h1>I code, therefor, I am</h1>
-    <h2>Rene Descartes</h2> -->
+    
+    <!-- ============================================
+         Challenge 1: Basic HTML Tags
+    ============================================ -->
+    <!-- 
+    <header>
+        <h1>I code, therefore, I am</h1>
+        <h2>Rene Descartes</h2>
+    </header>
+    -->
 
-    <!-- Chalenge 2 Write a news article! -->
-    <!-- <h1>Human have reached Mars</h1>
-    <h3>The Starship rocket successfully landed on the <br>red planet this morning.</h3>
-    <p>After a 115 days long journey, the crew of 12 finally arrived at <br>their destination. This is the first time humans have set foot <br>on a planet other than Earth.</p> -->
+    <!-- ============================================
+         Challenge 2: News Article
+    ============================================ -->
+    <!--
+    <article>
+        <header>
+            <h1>Humans Have Reached Mars</h1>
+            <h3>
+                The Starship rocket successfully landed on the 
+                <br>red planet this morning.
+            </h3>
+        </header>
 
-    <!-- Challenge 3 The <img> tag -->
-    <!-- <h1>Human have reached Mars</h1>
-    <img src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/planet-mars/mars-factfile-rover-selfie-two-column.jpg" alt="Mars Picture" width="100%">
-    <h3>The Starship rocket successfully landed on the <br>red planet this morning.</h3>
-    <p>After a 115 days long journey, the crew of 12 finally arrived at <br>their destination. This is the first time humans have set foot <br>on a planet other than Earth.</p> -->
+        <p>
+            After a 115-day long journey, the crew of 12 finally arrived at 
+            their destination. This is the first time humans have set foot 
+            on a planet other than Earth.
+        </p>
+    </article>
+    -->
 
-    <!-- Challenge 4 Nesting using div tag -->
-    <!-- <div>
-        <h1>Human have reached Mars</h1>
-        <img src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/planet-mars/mars-factfile-rover-selfie-two-column.jpg" alt="Mars Picture" width="100%">
-        <h3>The Starship rocket successfully landed on the <br>red planet this morning.</h3>
-        <p>After a 115 days long journey, the crew of 12 finally arrived at <br>their destination. This is the first time humans have set foot <br>on a planet other than Earth.</p>
-    </div> -->
+    <!-- ============================================
+         Challenge 3: Img Tag
+    ============================================ -->
+    <!--
+    <article>
+        <header>
+            <h1>Humans Have Reached Mars</h1>
+        </header>
 
-    <!-- Challenge 5 Buttons -->
-    <!-- <h1>Welcome!</h1>
-    <p>You have been granted access to the platform.</p>
-    <p>Please create and account.</p>
-    <button>Sign up!</button> -->
+        <figure>
+            <img 
+                src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/planet-mars/mars-factfile-rover-selfie-two-column.jpg" 
+                alt="Mars Rover Selfie" 
+                width="100%">
+            <figcaption>A rover selfie taken on the surface of Mars.</figcaption>
+        </figure>
 
-    <!-- Challenge 6 input -->
-    <!-- <h1>Welcome!</h1>
-    <p>You have been granted access to the platform.</p>
-    <p>Please create and account.</p>
-    <input type="text" placeholder="Your Username"> <br>
-    <input type="text" placeholder="Your password"> <br>
-    <input type="date" placeholder="Your date of birth"> <br>
-    <input type="time" placeholder="Enter your time"> <br>
-    <input type="file" placeholder="Your picture" id="avatar" name="avatar"> <br>
-    <button>Sign up!</button> -->
+        <h3>
+            The Starship rocket successfully landed on the 
+            <br>red planet this morning.
+        </h3>
 
-    <!-- Challenge 7 Anchor Tags -->
-    <!-- <h1>My work ️💅</h1>
-    <h2>Project 1: Google.com</h2>
-    <p>I built this one as a part of Scrimba's HTML&CSS course.</p>
-    <p>Check out the live demo 
-        <a href="https://www.google.com/" target="_blank">here</a>
-    </p> -->
+        <p>
+            After a 115-day journey, the crew of 12 finally arrived at 
+            their destination—marking humanity’s first steps on another planet.
+        </p>
+    </article>
+    -->
 
-    <!-- Challenge 8 Lists -->
-    <!-- Ordered List -->
-    <ol>
-        <li>Hamburger</li>
-        <li>Pizza</li>
-        <li>Steak</li>
-    </ol>
+    <!-- ============================================
+         Challenge 4: Nesting with <div>
+    ============================================ -->
+    <!--
+    <section>
+        <h1>Humans Have Reached Mars</h1>
 
-    <!-- Unorders List -->
-    <ul>
-        <li>Hamburger</li>
-        <li>Pizza</li>
-        <li>Steak</li>
-    </ul>
+        <figure>
+            <img 
+                src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/planet-mars/mars-factfile-rover-selfie-two-column.jpg" 
+                alt="Mars Rover" 
+                width="100%">
+        </figure>
 
+        <h3>The Starship rocket successfully landed on the red planet this morning.</h3>
+
+        <p>
+            After a 115-day long journey, the crew of 12 has finally arrived. 
+            A historic moment for humanity.
+        </p>
+    </section>
+    -->
+
+    <!-- ============================================
+         Challenge 5: Buttons
+    ============================================ -->
+    <!--
+    <section>
+        <h1>Welcome!</h1>
+        <p>You have been granted access to the platform.</p>
+        <p>Please create an account.</p>
+        <button>Sign up!</button>
+    </section>
+    -->
+
+    <!-- ============================================
+         Challenge 6: Input Fields
+    ============================================ -->
+    <!--
+    <section>
+        <h1>Welcome!</h1>
+        <p>You have been granted access to the platform.</p>
+        <p>Please create an account.</p>
+
+        <form>
+            <input type="text" placeholder="Your Username"><br>
+            <input type="password" placeholder="Your Password"><br>
+            <input type="date"><br>
+            <input type="time"><br>
+            <input type="file" id="avatar" name="avatar"><br>
+            <button type="submit">Sign up!</button>
+        </form>
+    </section>
+    -->
+
+    <!-- ============================================
+         Challenge 7: Anchor Tags
+    ============================================ -->
+    <!--
+    <section>
+        <h1>My Work 💅</h1>
+        <h2>Project 1: Google.com</h2>
+        <p>I built this as part of Scrimba’s HTML & CSS course.</p>
+
+        <p>
+            Check out the live demo 
+            <a href="https://www.google.com/" target="_blank">here</a>.
+        </p>
+    </section>
+    -->
+
+    <!-- ============================================
+         Challenge 8: Lists
+    ============================================ -->
+    <!--
+    <section>
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Hamburger</li>
+            <li>Pizza</li>
+            <li>Steak</li>
+        </ol>
+
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Hamburger</li>
+            <li>Pizza</li>
+            <li>Steak</li>
+        </ul>
+    </section>
+    -->
+
+    <!-- ============================================
+         Challenge 9: Semantic Structure Example
+    ============================================ -->
+    <!--
+    <main>
+        <article>
+            <header>
+                <h1>Semantic HTML is Power</h1>
+                <p>Using proper HTML structure improves SEO, accessibility, and clarity.</p>
+            </header>
+
+            <section>
+                <h2>Why Semantics Matter</h2>
+                <p>Semantic tags provide meaning, helping browsers and screen readers understand your content.</p>
+            </section>
+
+            <footer>
+                <p>Written by Ace • Future Full-Stack Legend • 2025</p>
+            </footer>
+        </article>
+    </main>
+    -->
 
 </body>
 </html>
