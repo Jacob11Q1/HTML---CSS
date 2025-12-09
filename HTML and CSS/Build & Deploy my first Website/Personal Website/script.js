@@ -1,11 +1,11 @@
 // Challenge 2:
-// Replace the arguments below according to your preference.
+// Replace the parameters below according to your preference.
 
 // space, scary, military, romantic, cowboy, fantasy, superhero
-favouriteMovieGenre("fantasy")
+favouriteMovieGenre("scary")
 
 // watermelon, tomato, banana, orange, avocado, blueberry
-favouriteFruit("tomato")
+favouriteFruit("watermelon")
 
 // light, dark
 favouriteMode("dark")
