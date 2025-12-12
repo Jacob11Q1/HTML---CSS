@@ -1,8 +1,13 @@
-body{
-    color: red; /* Black, Yellow, Green, etc...*/
-    background: purple; /* Black, Yellow, Green, etc...*/
-    font-size: 25px; /* 0px - 100px and beyond */
-    font-weight: bold;   /* lighter, normal, bold  */
-    text-align: center;      /* left, center or right  */ 
-    margin-top: 8px;        /* From 0px and upwards   */
+div{
+    margin-top: 150px;
+}
+
+img{
+    display: block;
+    width: 300px;
+}
+
+input{
+    display: block;
+    width: 400px;
 }
