@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 360px;
+    margin: 40px auto;
+}
+
+/* Gambia Flag */
+.red {
+    background: #ce1126;
+    height: 80px;
+}
+
+.white {
+    background: #ffffff;
+    height: 15px;
+}
+
+.blue {
+    background: #0c1c8c;
+    height: 60px;
+    box-shadow:
+        0 -15px 0 #ffffff,
+        0  15px 0 #ffffff;
+}
+
+.green {
+    background: #3a7728;
+    height: 80px;
+}
