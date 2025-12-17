@@ -23,14 +23,19 @@
 }
 
 .search-btn{
-    display: block;
     width: 150px;
     line-height: 28px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     border: 0.5px solid #171718;
     border-radius: 25px;
     padding: 10px;
     font-weight: bolder;
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    margin: 15px 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
 }
