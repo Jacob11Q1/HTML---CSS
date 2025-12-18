@@ -1,0 +1,13 @@
+body{
+    margin: 20px;
+}
+
+.card-business{
+    padding: 20px;
+    border: 2px dotted rgb(78, 78, 175);
+    display: flex;
+}
+
+.prof-image{
+    width: 150px;
+}
