@@ -4,10 +4,17 @@ body{
 
 .card-business{
     padding: 20px;
-    border: 2px dotted rgb(78, 78, 175);
     display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .prof-image{
     width: 150px;
+}
+
+.border-blue{
+    border: 2px dotted rgb(78, 78, 175);
+    padding: 10px;
 }
