@@ -1,27 +1,77 @@
-body{
-    margin: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 700  ;
+/* Improved V2.0 Business Card */
+* {
+    box-sizing: border-box;
 }
 
-.card-business{
-    padding: 20px;
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f172a;
     display: flex;
-    justify-content: space-around;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    color: #2b2839;
-    background: #ddebf8;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card */
+.card-business {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: #1B3C53;
+    color: #E3E3E3;
+
+    padding: 24px;
+    width: 420px;
+    max-width: 90%;
+
+    border-radius: 20px;
     border-bottom: 6px solid #d8cefe;
-    border-radius: 25px;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.prof-image{
-    width: 150px;
+.card-business:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
 }
 
-/* .border-blue{
-    border: 2px dotted rgb(78, 78, 175);
-    padding: 10px;
-} */
+/* Image */
+.prof-image {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+
+    border-radius: 18px;
+    border: 3px solid #456882;
+
+    transition: transform 0.3s ease;
+}
+
+.prof-image:hover {
+    transform: scale(1.05);
+}
+
+/* Text */
+.card-info h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.card-info p {
+    margin: 6px 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.card-info h3 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.75;
+}
