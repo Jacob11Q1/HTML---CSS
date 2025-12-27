@@ -1,0 +1,28 @@
+body{
+    font-family: "Happy Monkey", cursive;
+    margin: 0 auto;
+    color: #ffffff;
+    background: #a2d2ff;
+    display: flex;
+    flex-direction: row;
+}
+
+h1,h2,h4, p{
+    text-shadow: 1.5px 2px 1px black;
+}
+
+h2,h4{
+    background: #EFB0C9;
+}
+
+.hero-section{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
