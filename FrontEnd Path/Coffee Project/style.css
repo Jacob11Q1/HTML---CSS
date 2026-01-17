@@ -1,0 +1,72 @@
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+/* Header */
+.site-header {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* centers the header */
+    padding: 16px 20px;
+    /* breathing room */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* clean spacing between logo and nav */
+}
+
+/* Logo */
+.logo {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+}
+
+/* Nav */
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* use gap instead of li margins */
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 10px;
+    /* bigger click target */
+    border-radius: 10px;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.site-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+}
+
+.site-nav a:focus-visible {
+    outline: 2px solid rgba(0, 0, 0, 0.35);
+    outline-offset: 3px;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .site-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
