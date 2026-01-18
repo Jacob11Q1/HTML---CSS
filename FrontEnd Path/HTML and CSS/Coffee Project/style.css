@@ -1,28 +1,45 @@
 /* Base */
+:root {
+    --max-width: 1100px;
+    --page-pad: 20px;
+
+    --text: #0b0b0b;
+    --muted: rgba(0, 0, 0, 0.68);
+
+    --card: #ffffff;
+    --shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+
+    --primary: #1d4ed8;
+    /* blue */
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
+    color: var(--text);
+    background: #f6f6f4;
 }
 
 /* Header */
 .site-header {
-    max-width: 1100px;
+    max-width: var(--max-width);
     margin: 0 auto;
-    /* centers the header */
-    padding: 16px 20px;
-    /* breathing room */
+    padding: 16px var(--page-pad);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    /* clean spacing between logo and nav */
 }
 
 /* Logo */
 .logo {
     text-decoration: none;
-    color: #000;
+    color: var(--text);
     font-size: 1.2rem;
     letter-spacing: 0.3px;
 }
@@ -33,16 +50,14 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    /* use gap instead of li margins */
     margin: 0;
     padding: 0;
 }
 
 .site-nav a {
     text-decoration: none;
-    color: #000;
+    color: var(--text);
     padding: 8px 10px;
-    /* bigger click target */
     border-radius: 10px;
     transition: transform 0.15s ease, background-color 0.15s ease;
 }
@@ -57,6 +72,98 @@ body {
     outline-offset: 3px;
 }
 
+/* Hero Section (A: left text, right visual) */
+.hero {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 48px var(--page-pad);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 280px;
+}
+
+.hero h1 {
+    margin: 0 0 12px;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+}
+
+.hero p {
+    margin: 0 0 24px;
+    font-weight: 500;
+    color: var(--muted);
+    max-width: 52ch;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.hero-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 12px 16px;
+    border-radius: 14px;
+    transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn:focus-visible {
+    outline: 2px solid rgba(0, 0, 0, 0.35);
+    outline-offset: 3px;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #fff;
+    border: 2px solid var(--primary);
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    background: #163fb6;
+    border-color: #163fb6;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border: 2px solid rgba(0, 0, 0, 0.18);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-1px);
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.28);
+}
+
+/* Hero Visual (placeholder card) */
+.hero-visual {
+    flex: 1;
+    min-width: 280px;
+    height: 360px;
+    border-radius: 26px;
+    background:
+        radial-gradient(circle at 30% 30%, rgba(29, 78, 216, 0.25), transparent 55%),
+        radial-gradient(circle at 70% 60%, rgba(34, 197, 94, 0.20), transparent 55%),
+        linear-gradient(135deg, #ffffff, #f0f0ee);
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
 /* Mobile */
 @media (max-width: 640px) {
     .site-header {
@@ -68,5 +175,25 @@ body {
     .site-nav ul {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 32px var(--page-pad);
+    }
+
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-actions {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        width: 100%;
+        height: 280px;
     }
 }
