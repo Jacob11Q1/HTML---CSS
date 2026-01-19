@@ -243,6 +243,7 @@ a {
     background: var(--card);
     border: 1px solid var(--border);
     box-shadow: var(--shadow);
+    border: 2px solid var(--text);
 
     display: flex;
     align-items: center;
@@ -536,8 +537,9 @@ a {
    FOOTER
 ========================= */
 .site-footer {
-    border-top: 1px solid var(--border);
-    background: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid var(--primary-dark);
+    background: var(--text);
+    color: var(--card);
 }
 
 .footer-wrap {
@@ -553,11 +555,16 @@ a {
 .footer-brand {
     margin: 0;
     font-weight: 900;
+    font-size: 35px;
+    text-shadow:2px 1px #4f5631;
+
 }
 
 .footer-muted {
     margin: 0;
-    color: var(--muted);
+    color: var(--card);
+    text-shadow: 2px 1px #656D3F;
+    font-size: 25px;
 }
 
 /* =========================
