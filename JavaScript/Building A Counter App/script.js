@@ -19,24 +19,26 @@
 // console.log("My Age in Dog Age: " + myDogAge);
 
 // Reassigning and incramenting:
-let count = 5;
+// let count = 5;
 
 // Incrament count by 3:
-count = count + 3;
-count = count + 15;
-console.log("Reassinging and incramenting: " + count);
+// count = count + 3;
+// count = count + 15;
+// console.log("Reassinging and incramenting: " + count);
 
 // Challenge bonusPoint:
-let bonusPoints = 50;
+// let bonusPoints = 50;
 
 // Incramenting by 50:
-bonusPoints = bonusPoints + 50;
-console.log(bonusPoints);
+// bonusPoints = bonusPoints + 50;
+// console.log(bonusPoints);
 
 // Incramenting it to make 25: 
-bonusPoints = bonusPoints - 75;
-console.log(bonusPoints);
+// bonusPoints = bonusPoints - 75;
+// console.log(bonusPoints);
 
-// Incramenting it to make 70: 
-bonusPoints = bonusPoints + 45;
-console.log(bonusPoints);
+// // Incramenting it to make 70: 
+// bonusPoints = bonusPoints + 45;
+// console.log(bonusPoints);
+
+
