@@ -26,15 +26,3 @@ bonusPoints = bonusPoints - 75;
 
 bonusPoints = bonusPoints + 45;
 console.log(bonusPoints);
-
-// Bank Account 1:
-let balance = 100;
-balance = balance + 50;
-console.log(balance);
-
-balance = balance - 30;
-console.log(balance);
-
-balance = balance + 10;
-console.log(balance);
-
