@@ -17,7 +17,7 @@ let count = 5;
 count = count + 2;
 console.log(count);
 
-// Challenges Day 1: 15 - 4 - 2026
+// Challenges Day 1: 15 - 4 - 2026 Basics
 // Challenge BonusPoints:
 let bonusPoints = 50;
 bonusPoints = bonusPoints + 50;
@@ -58,4 +58,51 @@ let name = "Yacoub";
 let age = 30;
 console.log(`My name is ${name} and I am ${age} years old`)
 
-// Challenges Day 2: 16 - 4 - 2026
+function increment() {
+    console.log("The button was clicked");
+}
+
+// setting up the race
+function countdown(){
+    console.log(5);
+    console.log(4);
+    console.log(6);
+    console.log(2);
+    console.log(1);
+}
+
+countdown()
+
+// Declare The Number Function
+function declareTheNumber(){
+    console.log(24);
+}
+
+declareTheNumber();
+
+// Function That Logs The Sum:
+let lap1 = 34;
+let lap2 = 33;
+let lap3 = 36;
+
+function sumOfLaps(){
+    let sum = lap1 + lap2 + lap3;
+    console.log(sum);
+}
+
+sumOfLaps();
+
+// Function the increments:
+let lapsCompleted = 0;
+function incrementLaps(){
+    lapsCompleted = lapsCompleted + 1;
+    
+}
+
+incrementLaps();
+incrementLaps();
+incrementLaps();
+
+console.log(lapsCompleted);
+// Challenges Day 2: 16 - 4 - 2026 Funtions
+
