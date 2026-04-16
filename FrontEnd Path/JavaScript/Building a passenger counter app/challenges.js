@@ -17,6 +17,7 @@ let count = 5;
 count = count + 2;
 console.log(count);
 
+// Challenges Day 1: 15 - 4 - 2026
 // Challenge BonusPoints:
 let bonusPoints = 50;
 bonusPoints = bonusPoints + 50;
@@ -39,7 +40,7 @@ console.log(balance);
 
 // Challenge 2 = Salary 2:
 let salary = 500;
-salary = salary * 0.20;
+salary = salary + (salary * 0.20);
 console.log(salary);
 
 salary = salary - 50;
@@ -56,3 +57,5 @@ console.log(points);
 let name = "Yacoub";
 let age = 30;
 console.log(`My name is ${name} and I am ${age} years old`)
+
+// Challenges Day 2: 16 - 4 - 2026
