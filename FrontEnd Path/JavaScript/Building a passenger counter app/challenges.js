@@ -104,5 +104,36 @@ incrementLaps();
 incrementLaps();
 
 console.log(lapsCompleted);
-// Challenges Day 2: 16 - 4 - 2026 Funtions
 
+// Challenges Day 2: 16 - 4 - 2026 Funtions
+// Greeting Function
+function greetUser(name){
+    return "Hello " + name + "!";
+}
+console.log(greetUser("Yacoub"));
+
+// Likes Function
+function totalLikes(a , b){
+    return a + b;
+}
+
+let total = totalLikes(8 , 48);
+console.log(total);
+
+// Increment Function
+function incrementByOne(num){
+    return num + 1;
+}
+
+let count = 0;
+count = incrementByOne(count);
+count = incrementByOne(count);
+console.log(count);
+
+// Calculate Age Function
+function calculateDogAge(age){
+    return age * 7;
+}
+
+let humanDogAge = calculateDogAge(30);
+console.log(humanDogAge);
