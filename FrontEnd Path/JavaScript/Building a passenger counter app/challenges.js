@@ -137,3 +137,13 @@ function calculateDogAge(age){
 
 let humanDogAge = calculateDogAge(30);
 console.log(humanDogAge);
+
+// Strings
+let username = "Jacob";
+console.log(username);
+
+// Challenge 1 create a variable, message that stores text
+let message = "You have three new notifications";
+console.log(message + ", " + username + "!")
+
+// Challenge 2:

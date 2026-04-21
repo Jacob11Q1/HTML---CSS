@@ -12,3 +12,7 @@ function increment(){
     console.log(count);
     countEl.innerText = count;
 }
+
+function save(){
+    console.log(count);
+}
