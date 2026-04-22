@@ -160,3 +160,14 @@ let myName = "Jacob";
 let greeting = "Hi, my name is ";
 let myGreeting = greeting + myName;
 console.log(myGreeting);
+
+let points = 5;
+let bonusPoints = "45";
+let totalPoints = points + bonusPoints;
+console.log(totalPoints);
+
+// Examples of Strings vs Variables and Numbers:
+console.log(4 + 5); // 9
+console.log("2" + "4"); // 24
+console.log("5" + 1); // 51
+console.log(100 + "100"); // 100100
