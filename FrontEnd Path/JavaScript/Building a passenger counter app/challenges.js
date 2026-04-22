@@ -146,4 +146,17 @@ console.log(username);
 let message = "You have three new notifications";
 console.log(message + ", " + username + "!")
 
-// Challenge 2:
+// Challenge 2: Create a variable, messageToUser, that contains the message we have logged
+let messageToUser = message + ", " + username + "!";
+console.log(messageToUser);
+
+// Challenge 3: Create two variables, name and greeting. The name variable should store your name,
+// and the greeting should store e.g. "Hi, my name is "
+
+// Create a third variable, myGreeting, that contatenates the two strings
+// Log myGreeting to the console
+
+let myName = "Jacob";
+let greeting = "Hi, my name is ";
+let myGreeting = greeting + myName;
+console.log(myGreeting);
