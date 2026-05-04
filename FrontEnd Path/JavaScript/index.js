@@ -6,4 +6,4 @@ let name = "Your Name"
 let greeting = "Welcome back"
 
 // Render the welcome message using welcomeEl.innerText
-welcomeEl.innerText = greeting + ", " + name
+welcomeEl.innerText = greeting + ", " + name + " 👋"

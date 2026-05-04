@@ -4,15 +4,19 @@
 // count = count + 1;
 // console.log(count);
 
-let count = 0;
-let countEl = document.getElementById("count-el");
+let count = 0
+let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 
-function increment(){
-    count += 1;
-    console.log(count);
-    countEl.innerText = count;
+function increment() {
+    count += 1
+    countEl.innerText = count
 }
 
-function save(){
-    console.log(count);
+function save() {
+    let countStr = count + " - "
+    saveEl.innerText += countStr
+
+    count = 0
+    countEl.innerText = count
 }
